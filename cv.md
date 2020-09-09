@@ -1,10 +1,9 @@
-# rsschool-cv
-# ALENA REBKAVETS
+ # ALENA REBKAVETS
 
 ## Contact Info: 
-## ![phone](https://icon-icons.com/icons2/197/PNG/32/phone_24032.png)       +375 (44) 773-16-62
-## ![email](https://icon-icons.com/icons2/197/PNG/32/mail_23977.png)         archirebkavets@gmail.com
-## ![city](https://icon-icons.com/icons2/197/PNG/32/location_24008.png)     Zhodino
+## ![phone](phone.png)       +375 (44) 773-16-62
+## ![email](mail.png)         archirebkavets@gmail.com
+## ![city](place.png)     Zhodino
 
 ## Summary 
 I am hard-working and responsible person. I can deal with difficult situations. I am interested in learning how to create web-sites and web applications. I'm interested in this because it’s innovatively.
