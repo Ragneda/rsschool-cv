@@ -2,7 +2,7 @@
 
 ## Contact Info:
 
-## ![phone](phone.png) +48 730 667 217, +375 (44) 773-16-62
+## ![phone](phone.png) +48 730 667 217, +375 (44) 773 16 62
 
 ## ![email](mail.png) archirebkavets@gmail.com
 
