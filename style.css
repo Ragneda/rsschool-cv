@@ -1,6 +1,167 @@
+html {
+  scroll-behavior: smooth;
+}
+
 body {
   width: 1024px;
   margin: 0 auto;
-  font-family: "Jura", sans-serif;
+  font-family: "Poppins", Arial, sans-serif;
   font-size: 1.6rem;
+}
+
+.wrapper {
+  margin-right: 35px;
+  margin-left: 35px;
+}
+
+.header {
+  color: #000000;
+  background-color: rgb(214, 222, 225);
+}
+
+.header__navigation {
+  display: block;
+}
+
+.navigation {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  margin: 0;
+  padding: 0;
+}
+
+.navigation__link {
+  list-style: none;
+  cursor: pointer;
+  line-height: 50px;
+}
+
+.navigation__link:hover {
+  background-color: #f9d64c;
+  transition-duration: 0.5s;
+}
+
+a {
+  color: #000000;
+  text-decoration: none;
+}
+
+.avatar {
+  width: 160px;
+}
+
+.container_avatar {
+  display: flex;
+  background-color: rgb(214, 222, 225);
+}
+
+.layout_column_2 {
+  display: flex;
+  font-size: 20px;
+  line-height: 30px;
+  font-weight: 400;
+}
+
+.section_left {
+  padding-top: 55px;
+  background-color: #46495b;
+  color: #ffffff;
+  width: 45%;
+}
+
+.section_left_wrapper {
+  margin-left: 35px;
+}
+.contact {
+  padding-left: 0;
+  line-height: 40px;
+}
+
+.contact_li {
+  padding-bottom: 30px;
+}
+
+li {
+  list-style-type: none;
+}
+
+h1 {
+  padding-top: 20px;
+  padding-left: 10px;
+  padding-right: 10px;
+  color: #000000;
+  line-height: 40px;
+}
+
+h2 {
+  padding-left: 20px;
+  border-left: 20px solid #f9d64c;
+  background-color: rgb(214, 222, 225);
+  color: #000000;
+}
+
+.education {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.education_li {
+  padding-bottom: 25px;
+  padding-left: 0;
+  padding-right: 30px;
+}
+
+.text {
+  padding-right: 35px;
+}
+
+.text_skills_en {
+  padding-left: 40px;
+}
+
+.projects {
+  display: flex;
+  flex-wrap: nowrap;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  padding-left: 40px;
+  padding-top: 15px;
+}
+
+.footer {
+  background-color: rgb(214, 222, 225);
+  color: rgb(190, 190, 190);
+}
+
+.footer_container {
+  display: flex;
+  justify-content: space-between;
+  align-items: stretch;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.services__icon {
+  padding-bottom: 0;
+}
+
+.link {
+  display: inline;
+  padding-left: 20px;
+  cursor: pointer;
+}
+
+span {
+  font-size: 40px;
+  color: black;
+}
+
+.container_link {
+  margin: 0;
+}
+
+.ico_2 {
+  height: 40px;
 }
