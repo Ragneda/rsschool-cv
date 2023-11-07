@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css"
+    >
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap"
+      rel="stylesheet"
+    >
+    <link rel="stylesheet" href="style.css" >
+    <title>CV Alena Rebkavets</title>
+  </head>
+  <body>
+    <header class="header">
+      <nav class="header__navigation wrapper">
+        <ul class="navigation">
+          <li class="navigation__link">
+            <a href="#contact">Contact</a>
+          </li>
+          <li class="navigation__link">
+            <a href="#education">Education</a>
+          </li>
+          <li class="navigation__link">
+            <a href="#about_me">About me</a>
+          </li>
+          <li class="navigation__link">
+            <a href="#skills">Skills</a>
+          </li>
+          <li class="navigation__link">
+            <a href="#english_skills">English skills</a>
+          </li>
+          <li class="navigation__link">
+            <a href="#code">Code</a>
+          </li>
+          <li class="navigation__link">
+            <a href="#projects">Projects</a>
+          </li>
+        </ul>
+      </nav>
+    </header>
+    <main class="container">
+      <div class="layout_column_2">
+        <section class="section_left">
+          <div class="section_left_wrapper">
+            <div class="container_avatar">
+              <img class="avatar" src="photo.jpg" alt="resume photo avatar">
+              <h1>ALENA REBKAVETS</h1>
+            </div>
+            <div class="info" id="contact">
+              <div class="contact_info">
+                <h2>Contact Info:</h2>
+                <ul class="contact">
+                  <li class="contact_li">
+                    Discord:<br>
+                    Alena(@Ragneda)<br>
+                    Alena Rebkavets#0138
+                  </li>
+                  <li class="contact_li">
+                    Email:<br>
+                    archirebkavets@gmail.com
+                  </li>
+                  <li class="contact_li">
+                    Address:<br>
+                    Wroclaw, Poland
+                  </li>
+                </ul>
+              </div>
+            </div>
+            <div class="story">
+              <h2>Education</h2>
+              <ul class="education" id="education">
+                <li class="education_li">
+                  2002-2007<br>
+                  Belarusian National Technical University, Specialty:
+                  Architecture, Qualification: Architect.
+                </li>
+                <li class="education_li">
+                  2020<br>
+                  The Rolling Scopes School RS 2020 Q1 (JavaScript)
+                </li>
+              </ul>
+            </div>
+            <div class="story" id="about_me">
+              <h2>About me</h2>
+              <p class="text">
+                I am fond of photography, long-distance running (record - 21.097
+                km at the Minsk half marathon 2019), cycling.
+              </p>
+            </div>
+          </div>
+        </section>
+        <section class="section_right">
+          <div class="section_right_wrapper">
+            <div class="layout_column">
+              <div class="story" id="skills">
+                <h2>Skills</h2>
+                <ul>
+                  <li>- HTML;</li>
+                  <li>- CSS;</li>
+                  <li>- JavaScript;</li>
+                  <li>- Figma;</li>
+                  <li>- Adobe Photoshop;</li>
+                  <li>- Webpack;</li>
+                  <li>- Git;</li>
+                  <li>- Sass;</li>
+                  <li>
+                    - Autodesk 3ds Max + Corona Renderer + Marvelous designer;
+                  </li>
+                  <li>- Twinmotion;</li>
+                  <li>- Autodesk Revit;</li>
+                  <li>- Autodesk Autocad.</li>
+                </ul>
+              </div>
+              <div class="story" id="english_skills">
+                <h2>English skills</h2>
+                <p class="text_skills_en">A1</p>
+              </div>
+              <div class="story" id="code">
+                <h2>Code</h2>
+                <pre>
+                  <code>
+    function century(year) {
+      let num = Number(year);
+      let a = num/100;
+      num = Math.ceil(a);
+      return num;
+    }
+                </code>
+              </pre>
+              </div>
+              <div class="story" id="projects">
+                <h2>Projects</h2>
+                <ul class="projects">
+                  <li>
+                    <a
+                      href="https://ragneda-rs2020q1-fancy-weather.netlify.app"
+                      class="ico"
+                      ><img
+                        src="Pogoda_link.PNG"
+                        alt="icon_project_weather"
+                        width="250"
+                    ></a>
+                  </li>
+                  <li>
+                    <a
+                      href="https://ragneda-star-fighter.netlify.app"
+                      class="ico"
+                      ><img
+                        src="star_link.PNG"
+                        alt="icon_project_weather"
+                        width="250"
+                    ></a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </section>
+      </div>
+    </main>
+    <footer class="footer">
+      <div class="wrapper">
+        <div class="footer_container">
+          <div class=""><span>2022</span></div>
+          <ul class="container_link">
+            <li class="link">
+              <a href="https://rs.school/js/" class="ico"
+                ><img class="ico_2" src="rs_school_js.svg" alt="icon rsschool"
+              ></a>
+            </li>
+            <li class="link">
+              <a href="https://github.com/Ragneda" class="ico"
+                ><img class="ico_2" src="github-logo.png" alt="icon Github"
+              ></a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>
